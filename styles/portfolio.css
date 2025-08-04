@@ -26,6 +26,22 @@
 .dark-2{
     color: #474747;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+   background-position: top left ,bottom right;
+}
 
 /* Nav styles */
 nav{
