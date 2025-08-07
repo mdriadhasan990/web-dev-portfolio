@@ -4,7 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /* Shared styles */
@@ -37,6 +37,11 @@
 .section-description{
     font-size: 18px;
     color: #757575;
+}
+.text-center{
+    text-align: center;
+    margin:0 230px ;
+    
 }
 
 /* header */
@@ -119,3 +124,4 @@ nav ul li a{
 .item-description{
     font-weight: bold;
 }
+/* my skills */
