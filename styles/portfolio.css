@@ -104,12 +104,16 @@ nav ul li a{
 .banner-content{
     max-width: 580px;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* About styles */
 .about{
     border-radius: 10px;
     text-align: center;
     padding: 130px 150px;
-    margin: 130px 230px;
+    /* margin: 130px 230px; */
 
 }
 .section-description{
@@ -125,3 +129,17 @@ nav ul li a{
     font-weight: bold;
 }
 /* my skills */
+.skills-container{
+    display: flex;
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 6px 50px 0px #000000; */
+    gap: 24px;  
+}
+.skill{
+    box-shadow: 0px 6px 50px 0px #000000;
+    padding: 30px;
+    border-radius: 5px;
+}
+.gap{
+    margin-top: 50px;
+}
